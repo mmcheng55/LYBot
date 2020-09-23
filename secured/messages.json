@@ -1,0 +1,6 @@
+{
+  "JOIN": "Welcome {user} joined at {server}! Have fun!",
+  "EXIT": "Goodbye **{user}** QAQ. Hope to see you again.",
+  "JOIN_BOOL": true,
+  "EXIT_BOOL": true
+}

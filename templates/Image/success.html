@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+    <h2 style="text-align: center; padding-left: 20px;">Image saved!</h2>
+    <p>
+        Information:<br>
+        Download Link: <a href="{{ url_for('image_download', img_id=img) }}">http://r6.the-michaelcheng.com/show_img/{{ img }}/dl</a><br>
+        Show Link: <a href="{{ url_for('show_image', img_id=img) }}">http://r6.the-michaelcheng.com/show_img/{{ img }}</a><br>
+        Show on discord command: <b>;get_img {{ img }}</b>
+    </p>
+{% endblock %}
